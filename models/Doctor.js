@@ -8,7 +8,7 @@ class Doctor extends Traveler{
 
     heal(patient){
         if(patient.isHealthy === 'false'){
-            console.log(patient)
+            patient.isHealthy = "true";
         }
         return true;
     }
