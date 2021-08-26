@@ -6,7 +6,8 @@ const { doutor } = require("./../../app");
 
 let patientList = []
 let result = null;
-Given('um Doctor com o nome {string}', function (string) {
+
+Given('um Doctor de nome {string}', function (string) {
     doutor.name = string;
 });
 

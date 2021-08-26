@@ -6,7 +6,7 @@ Funcionalidade: Doctor
     Para que eles fiquem saudáveis.
 
     Contexto: 
-        Dado um Doctor com o nome "House"
+        Dado um Doctor de nome "House"
         E ele sempre começa a viagem com 1 refeição
         E ele sempre começa a viagem saudável.
         E o passageiro de nome <name> que está com saúde <isHealthy>

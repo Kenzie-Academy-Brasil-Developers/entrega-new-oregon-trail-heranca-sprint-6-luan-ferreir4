@@ -3,13 +3,11 @@ constructor(name, isHealthy, food){
         this.name = name;
         this.isHealthy = isHealthy;
         this.food = food;
-       
     }
 
     hunt(){
         let newQty = this.food + 2;
         this.food = newQty;
-        return `Now ${this.name} has ${newQty} amount of food.`;
     }
 
     eat(){
@@ -20,7 +18,7 @@ constructor(name, isHealthy, food){
             this.isHealthy = false;
         }
 
-        return this.isHealthy
+        return this.isHealthy;
     }
 }
 

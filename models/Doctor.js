@@ -1,9 +1,10 @@
 const Traveler = require("./Traveler");
 
 class Doctor extends Traveler{
-    constructor(name, isHealthy, food){
-        super(name, isHealthy,food)
-
+    constructor(name){
+        super(name);
+        this.isHealthy = 'true'
+        this.food = '1';
     }
 
     heal(patient){
